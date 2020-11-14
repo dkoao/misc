@@ -64,8 +64,6 @@ cat <<EOF > "${html_path}"
 		class="video-js vjs-fill vjs-big-play-centered"
 		controls
 		preload=auto
-		width="720"
-		height="576"
 		data-setup='{ "playbackRates": [0.5, 1, 1.5, 2] }'
 	>
 	<source src='$(basename "${videopath}")' type="${MIME}" />
