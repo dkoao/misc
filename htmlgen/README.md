@@ -10,7 +10,7 @@ The `-f` switch **will delete ALL HTML files in the working directory**.
 
 ## Mechanism
 
-The tool generates an index file that contains links to generated HTML files for every folder that contains video files in the working directory. It fills these HTML files with links to HTML files that are generated for every video detected. These links are sorted into groups (depending on how the directory structure is organized) and labeled with the full path to the video file (minus the extension).
+The tool generates an index file that contains links to generated HTML files for every folder that contains video files in the working directory. It fills these HTML files with links to HTML files that are generated for every video detected in the corresponding folder. These links are sorted into groups (depending on how the directory structure is organized) and labeled with the full path to the video file (minus the extension).
 
 ### Example
 
